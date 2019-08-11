@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css" type="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact Us!</title>
+    </head>
+
+    <body>
+        <nav>
+            <table class="navigation" border="1">
+                <thead>
+                    <tr>
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="aboutus.html">A little about us...</a></td>
+                        <td><a href="properties.html">Properties for Rent</a></td>
+                        <td><a href="forms.html">Forms and Applications</a></td>
+                        <td><a href="madisoninfo.html">Madison and UW Information</a></td>
+                        <td><a href="contact.html">Contact Us!</a></td>
+                    </tr>
+                </thead>
+            </table>
+        </nav>
+
+        <main>
+            <h1>Contact Us!</h1>
+            <form action="contact.html">
+                <div id="radio">
+                    <p>What kind of request would you like to make?</p>
+                    <label for="maintenance">Maintenance Request: </label>
+                    <input name="request" id="maintenance" type="radio" value="maintenance" required>
+                    <label for="information">Information Request: </label>
+                    <input name="request" id="information" type="radio" value="information" required>
+                </div>
+
+                <div id="dropdown">
+                    <p>What property are you interested in?</p>
+                    <select name="property">
+                        <option>509 Company Apartments</option>
+                        <option>Gargano Properties</option>
+                        <option>Chapel Hill</option>
+                        <option>Commerical Properties</option>
+                    </select>
+                </div>
+
+                <div id="message">
+                    <label for="username">Email: </label>
+                    <input id ="username" name="username" type="email" placeholder="Email" required>
+                    <!-- <label for="password">Password: </label>
+                    <input id="password" name="password" type="password" placeholder="Password" required></br> -->
+                    <label for="question">Question or Concern? </label>
+                    <!-- <input id="question" name="question" type="text" placeholder="How can we help you?"> -->
+                    <textarea id="question" name="question" rows="5" cols="25" placeholder="How can we help you?"></textarea>
+
+                    <button>Submit</button>
+                </div>
+                
+            </form>
+        </main>
+    </body>
+
+</html>
