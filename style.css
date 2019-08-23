@@ -1,5 +1,6 @@
 h1.title {
     font-family: "Georgia";
+    color: rgb(42, 95, 155);
     font-size: 48px;
 }
 
@@ -9,8 +10,25 @@ h1.title {
     background-repeat: no-repeat;   
 } */
 
-.navigation {
+nav {
     font-family: 'Helvetica';
     font-size: 20px;
     border: solid;
 }
+
+
+/* Google Map widget start */
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+/* Google Map widget end */
