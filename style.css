@@ -1,6 +1,6 @@
 h1.title {
     font-family: "Georgia";
-    color: rgb(42, 95, 155);
+    color: #ff0000e5;
     font-size: 48px;
 }
 
@@ -10,12 +10,25 @@ h1.title {
     background-repeat: no-repeat;   
 } */
 
-nav {
+table {
     font-family: 'Helvetica';
     font-size: 20px;
-    border: solid;
+    /* border: solid 2px #ff0000; */
+    border-collapse: collapse;
+    /* color: #ff0000e5;
+    border: #ff0000; */
 }
 
+td {
+    border: solid 3px black;
+}
+
+body {
+    
+    background: url("images/barn.jpg");
+    background-size: cover;
+    background: white;
+}
 
 /* Google Map widget start */
 .mapouter {
